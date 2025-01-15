@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     // @State: 기본 상태를 나타냄
     @State var menu: String? = "Newjeans"
-    @State var buttonText: String = "Hi, Bunnies!"
+    @State var buttonText: String = "Hi, Bunnies🐰"
     var menus: [Menu] = [.Minji, .Hanni, .Daniel, .Haerin, .Hyein]
     
     enum Menu: String {
